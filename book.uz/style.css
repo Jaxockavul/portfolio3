@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    max-width: 1550px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 1100px;
+    height: 250px;
+}
+.menu{
+    background-image: url(img/1614723891_106-p-foni-dlya-literaturi-128\ 1.png);
+    align-items: center;
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+section{
+    max-width: 1550px;
+    align-items: center;
+    padding: 50px;
+}
+.header_card{
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    margin: auto;
+}
+.card{
+    background-color: #C4C4C4;
+    align-items: center;
+    text-align: center;
+}

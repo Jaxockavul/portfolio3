@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>My Portfolio</h1>
+        <button class="toggle-btn" onclick="toggleDarkMode()">🌙</button>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#js-projects">JS Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about" class="profile">
+        <h2>About Me</h2>
+        <img src="./profile.png" alt="My Photo" class="profile-photo">
+        <p>Hello! I'm a 13-year-old passionate programmer who has been coding for 3-4 years. I specialize in front-end development, creating beautiful and functional websites and JavaScript games.</p>
+    </section>
+    
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-list">
+            <div class="skill">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="HTML Icon">
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <img src="https://camo.githubusercontent.com/199d38eeb4d2e72bca9bdb11a7eb29a39049f45da886883e8520698e16db6a35/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f642f64352f435353335f6c6f676f5f616e645f776f72646d61726b2e737667" alt="CSS Icon">
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <img src="https://miro.medium.com/v2/resize:fit:344/1*tZHcs0d7MAG-BBcjBekZYA.png" alt="JavaScript Icon">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <img src="https://img.freepik.com/premium-vector/generate-ai-artificial-intelligence-logo-ai-logo-concept_268834-2200.jpg?semt=ais_hybrid" alt="AI Icon">
+                <p>Artificial Intelligence</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <a href="./book.uz/index.html" class="project">BOOKS</a>
+            <a href="./figma buldozer/index.html" class="project">Cemennt</a>
+            <a href="./untitled figme/index.html" class="project">Street 88</a>
+        </div>
+    </section>
+    
+    <section id="js-projects" class="projects">
+        <h2>JavaScript Projects</h2>
+        <div class="project-list">
+            <a href="./Rock paper scisors/index.html" class="project">Rock paper scissors</a>
+            <a href="./guess number/index.html" class="project">GUess number</a>
+            <a href="./tap tap me!!1/index.html" class="project">GUess word</a>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: myemail@example.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

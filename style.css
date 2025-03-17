@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #333;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li {
+    display: inline;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: #ffcc00;
+}
+.profile {
+    text-align: center;
+    padding: 50px 20px;
+}
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.skills, .projects {
+    text-align: center;
+    padding: 40px;
+}
+.skills-list, .project-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.skill, .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 250px;
+}
+.skill img, .project img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.project a {
+    text-decoration: none;
+    list-style: none;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: color 0.3s;
+}
+.project a:hover {
+    color: #ff6600;
+    text-decoration: none;
+}
+.skill:hover, .project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+.project a, .project a:visited, .project a:hover, .project a:active {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .skills-list, .project-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
